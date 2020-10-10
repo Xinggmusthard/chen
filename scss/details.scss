@@ -1,0 +1,69 @@
+body {
+    color: #666;
+    font: 14px/150% "Franklin-Book", Helvetica, Arial, "冬青黑体", "Hiragino Sans GB", "microsoft yahei", "SimHei", sans-serif;
+    min-width: 1110px;
+    word-break: break-all;
+    background-color: #F1F2ED;
+    position: relative;
+    overflow-x: hidden;
+}
+.main{
+    height: 600px;
+    background-color: pink;
+    position: relative;
+}
+.main .listing{
+    position: absolute;
+    left: 30px;
+    bottom: 10px;
+}
+.main .smallimg{
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-left: 20px;
+}
+.main .smallimg a img{
+    width: 86px;
+    height: 86px;
+}
+.main .thumbImg{
+    width:450px;
+    height: 450px;
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    top:20px;
+    // background: url() no-repeat;
+    // background-size: contain;
+}
+.main .thumbImg img{
+    width:450px;
+    height: 450px;
+}
+.main .bigImg{
+    width:600px;
+    height: 600px;
+    background-color: pink;
+    position: absolute;
+    left: 600px;
+    top:20px;
+    display: none;
+    overflow: hidden;
+}
+.main .bigImg img{
+    width:900px;
+    height: 900px;
+    position: absolute;
+}
+.main .thumbImg #mark {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+}

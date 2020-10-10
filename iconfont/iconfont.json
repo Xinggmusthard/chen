@@ -1,0 +1,100 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "184542",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "462935",
+      "name": "ajb_置顶",
+      "font_class": "zhiding",
+      "unicode": "e7d7",
+      "unicode_decimal": 59351
+    },
+    {
+      "icon_id": "1112006",
+      "name": "微信",
+      "font_class": "weixin-1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "1563045",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "4228624",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "5177772",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "5258159",
+      "name": "常见问题",
+      "font_class": "wenti",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "7419096",
+      "name": "我 的",
+      "font_class": "wode",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "7724656",
+      "name": "腾讯视频",
+      "font_class": "tengxunshipin",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "11351629",
+      "name": "小程序 (1)",
+      "font_class": "xiaochengxu",
+      "unicode": "e7d8",
+      "unicode_decimal": 59352
+    },
+    {
+      "icon_id": "12724899",
+      "name": "向下",
+      "font_class": "arrow-down",
+      "unicode": "e50f",
+      "unicode_decimal": 58639
+    },
+    {
+      "icon_id": "14467796",
+      "name": "相机",
+      "font_class": "xiangji",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "16904640",
+      "name": "购物 车",
+      "font_class": "shop-car-select",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}

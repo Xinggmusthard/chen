@@ -1,0 +1,221 @@
+@charset "UTF-8";
+body {
+  color: #666;
+  font: 14px/150% "Franklin-Book", Helvetica, Arial, "冬青黑体", "Hiragino Sans GB", "microsoft yahei", "SimHei", sans-serif;
+  min-width: 1110px;
+  word-break: break-all;
+  background-color: #F1F2ED;
+  position: relative;
+  overflow-x: hidden; }
+
+.main .signin-page-wrap {
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-family: "Franklin-Demi","microsoft yahei","microsoft yahei";
+  margin-top: 60px; }
+
+.signin {
+  padding-bottom: 20px; }
+
+.signupin-content {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #c9caca;
+  background-color: #fff;
+  height: 450px; }
+
+.sign-title {
+  margin-top: 35px;
+  border: 0;
+  height: 44px;
+  margin-bottom: 10px;
+  padding-left: 59px; }
+
+.sign-title h2 {
+  font: 600 24px/44px "Franklin-Demi",'冬青黑体',"microsoft yahei";
+  color: #666;
+  width: 160px;
+  text-align: left;
+  background: #fff;
+  float: left;
+  cursor: pointer;
+  padding-bottom: 2px; }
+
+.sign-title h2.active {
+  border-bottom: 2px solid;
+  padding: 0px;
+  color: #C9192E; }
+
+.signupin-content .form-item {
+  font-size: 116.66667%; }
+
+.signupin-content .form-item {
+  margin-bottom: 20px;
+  height: auto;
+  overflow: visible; }
+
+.form-item {
+  overflow: hidden; }
+
+.signin .form-label {
+  display: none; }
+
+.signupin-content .form-label {
+  height: 32px;
+  overflow: hidden; }
+
+.form-label {
+  text-align: right;
+  float: left;
+  width: 5.2em;
+  line-height: 2.1em;
+  min-height: 1em;
+  _height: 1em; }
+
+.signupin-content .form-act {
+  padding-left: 59px;
+  margin-left: 0; }
+
+.signupin-content .form-act {
+  position: relative; }
+
+.signupin-content .form-act {
+  padding-left: 59px;
+  margin-left: 0; }
+
+.signupin-content .x-input {
+  width: 458px;
+  padding: 11px 0;
+  padding-left: 22px;
+  height: 50px;
+  border-color: #d7d8d4;
+  font-size: 16px;
+  border: 1px solid #d7d8d4;
+  font-family: "Franklin","冬青黑体","microsoft yahei"; }
+
+.signupin-content .form-item.oh {
+  overflow: hidden;
+  margin-bottom: 10px; }
+
+.signin .form-item.oh .fr {
+  float: right;
+  margin-right: 59px;
+  line-height: 32px;
+  color: #d2d2d2;
+  font-size: 16px;
+  width: auto;
+  font-weight: normal;
+  font-family: "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.signin .btn-major {
+  background-color: #C9192E;
+  color: #fff; }
+
+.signin .btn-major:hover {
+  background-color: #000000; }
+
+.btn {
+  border: 0 none;
+  background-color: transparent;
+  padding: 0; }
+
+.signin .btn-major span span {
+  display: block;
+  width: 310px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  font-size: 16px;
+  border: 0; }
+
+.form-item-normal {
+  display: flex; }
+
+.form-item-normal .btn-passport {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  background: #000;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 59px;
+  margin-left: 23px; }
+
+.form-item-normal .btn-passport span {
+  display: block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  background: #000;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 59px; }
+
+.trust-signin {
+  margin: 25px 59px 5px;
+  border: 0; }
+
+.trust-signin span {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+  vertical-align: middle;
+  float: left;
+  line-height: 37px; }
+
+.trust-signin .bg-1 {
+  background: #666;
+  background-size: 40px 40px; }
+
+.trust-signin .bg-1:hover {
+  background-color: yellowgreen; }
+
+.trust-signin .bg-2 {
+  background: #666;
+  background-size: 40px 40px; }
+
+.trust-signin .bg-2:hover {
+  background-color: red; }
+
+.trust-signin .bg-3 {
+  background: #666;
+  background-size: 40px 40px; }
+
+.trust-signin .bg-3:hover {
+  background-color: skyblue; }
+
+.trust-signin .bg-4 {
+  background: #666;
+  background-size: 40px 40px; }
+
+.trust-signin .bg-4:hover {
+  background-color: skyblue; }
+
+.trust-signin a {
+  margin: 0 !important;
+  margin-right: 10px !important;
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  -webkit-transition: background 0.2ms linear;
+  -moz-transition: background 0.2s linear;
+  -o-transition: background 0.2s linear;
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear; }
+
+.trust-signin a .iconfont {
+  font-size: 25px;
+  color: #fff; }
+
+.maxFoot {
+  width: 100%;
+  position: relative;
+  background-color: #1c1c1c;
+  margin-top: 60px;
+  z-index: 9; }

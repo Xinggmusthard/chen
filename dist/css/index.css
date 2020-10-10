@@ -1,0 +1,882 @@
+@charset "UTF-8";
+/* 头部 */
+.Heade {
+  width: 100%;
+  height: 150px;
+  position: relative; }
+
+.Heade .header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+
+.Heade .header .Top {
+  width: 100%;
+  max-width: 1300px;
+  height: 48px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+.Heade .header .Top > div {
+  float: right;
+  font: 15px/48px "Franklin-Demi","冬青黑体","microsoft yahei";
+  color: #9b9b9b;
+  margin-left: 20px;
+  z-index: 9999;
+  letter-spacing: 1px; }
+
+.Heade .header .Top > div a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #9b9b9b; }
+
+.Heade .header .Top > div a .iconfont {
+  font-size: 13px;
+  font-weight: normal;
+  margin-right: 5px; }
+
+.Heade .header .Top > div a:hover {
+  color: red; }
+
+/* 头的第二部分 */
+.Heade .hdMenuBox {
+  background: #ffffff;
+  z-index: 9; }
+
+.Heade .hdMenuBox .hdMenu {
+  width: 100%;
+  max-width: 1300px;
+  height: 130px;
+  margin: 0 auto;
+  position: relative; }
+
+.Heade .hdMenuBox .hdMenu .Logo {
+  width: 156px;
+  height: 130px;
+  background: url(../images/logo.png) no-repeat left center;
+  background-size: 156px auto;
+  cursor: pointer;
+  position: absolute; }
+
+.Heade .hdMenuBox .hdMenu .search {
+  float: right;
+  width: 178px;
+  height: 26px;
+  border: 1px solid #d2d2d2;
+  margin-top: 70px; }
+
+.Heade .hdMenuBox .hdMenu .search input {
+  width: 146px;
+  height: 20px;
+  text-indent: 10px;
+  float: left;
+  margin-top: 2px;
+  font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+  font-weight: 900; }
+
+.Heade .hdMenuBox .hdMenu .search .btn {
+  width: 30px;
+  height: 26px;
+  float: right;
+  cursor: pointer;
+  background-color: white;
+  border: none; }
+
+.Heade .hdMenuBox .hdMenu .search .btn:hover {
+  color: red; }
+
+.Heade .hdMenuBox .hdMenu .navigation {
+  width: 820px;
+  height: 50px;
+  position: absolute;
+  margin-top: 60px;
+  right: 188px; }
+
+.Heade .hdMenuBox .hdMenu .navigation ul li {
+  float: left;
+  padding-left: 15px;
+  line-height: 50px; }
+
+.Heade .hdMenuBox .hdMenu .navigation ul li a {
+  display: block;
+  color: #000;
+  display: block;
+  font-weight: bold;
+  font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+  font-size: 16px;
+  font-weight: bold; }
+
+.Heade .hdMenuBox .hdMenu .navigation ul li a .iconfont {
+  font-size: 6px; }
+
+.Heade .hdMenuBox .hdMenu .navigation ul li a:hover {
+  color: red; }
+
+.Heade .hdMenuBox .blackline {
+  width: 100%;
+  text-align: center;
+  background-color: #000000;
+  font-size: .9em;
+  height: 20px;
+  color: #ffffff;
+  z-index: 0; }
+
+.Heade .hdMenuBox .blackline a {
+  color: #ffffff;
+  font-size: .9rem;
+  text-decoration: none;
+  line-height: inherit; }
+
+/* 关于VANS鼠标指向导航栏显示出的内容样式 */
+.Heade .hdMenuBox .hideMenuAbout {
+  display: none;
+  width: 100%;
+  height: 200px;
+  background-color: #000000;
+  position: absolute;
+  color: #ffffff;
+  margin-top: -20px;
+  z-index: 250;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .hideMenuAbout .hideMenuAboutBX {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 135px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .hideMenuAbout .hideMenuAboutBX > div {
+  float: left;
+  height: 39px;
+  width: 25%; }
+
+.Heade .hdMenuBox .hideMenuAbout > div a {
+  color: #fff; }
+
+.Heade .hdMenuBox .hideMenuAbout > div ul a {
+  font-size: 15px;
+  line-height: 28px;
+  color: #589BC6;
+  display: block; }
+
+.Heade .hdMenuBox .hideMenuAbout > div ul a:hover {
+  color: red; }
+
+/* 热门鼠标指向导航栏显示出的内容样式 */
+.Heade .hdMenuBox .hideHot {
+  width: 100%;
+  height: 138px;
+  background-color: #000000;
+  position: absolute;
+  display: none;
+  color: #ffffff;
+  margin-top: -20px;
+  z-index: 250;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .hideHot .hotBX {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 138px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .hideHot .hotBX > div {
+  width: 50%;
+  height: 38px;
+  text-indent: 10px; }
+
+.Heade .hdMenuBox .hideHot .hotBX > div a {
+  color: #fff; }
+
+/* 男子鼠标指向导航栏显示出的内容样式 */
+.Heade .hdMenuBox .boys {
+  width: 100%;
+  height: 428px;
+  background-color: #000000;
+  position: absolute;
+  display: none;
+  color: #ffffff;
+  margin-top: -20px;
+  z-index: 250;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .boys .boysBX {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .boys .boysBX > div .Title a {
+  color: white; }
+
+.Heade .hdMenuBox .boys .boysBX .shoes .lv ul li a {
+  font-size: 15px;
+  line-height: 28px;
+  color: #589BC6;
+  display: block; }
+
+.Heade .hdMenuBox .boys .boysBX .shoes .lv ul li a:hover {
+  color: red; }
+
+.Heade .hdMenuBox .boys .boysBX .clothes .lv2 ul li a {
+  font-size: 15px;
+  line-height: 28px;
+  color: #589BC6;
+  display: block; }
+
+.Heade .hdMenuBox .boys .boysBX .clothes .lv2 ul li a:hover {
+  color: red; }
+
+.Heade .hdMenuBox .boys .boysBX .accessories .lv3 ul li a {
+  font-size: 15px;
+  line-height: 28px;
+  color: #589BC6;
+  display: block; }
+
+.Heade .hdMenuBox .boys .boysBX .accessories .lv3 ul li a:hover {
+  color: red; }
+
+.Heade .hdMenuBox .boys .boysBX .accessories {
+  padding-right: 200px; }
+
+.Heade .hdMenuBox .boys .boysBX .photo a img:hover {
+  border: 1px solid white; }
+
+/* 女子鼠标指向导航栏显示出的内容样式 */
+.Heade .hdMenuBox .girls {
+  width: 100%;
+  height: 428px;
+  background-color: #000000;
+  position: absolute;
+  display: none;
+  color: #ffffff;
+  margin-top: -20px;
+  z-index: 250;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .girls .girlsBX {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .girls .girlsBX > div .Title a {
+  color: white; }
+
+.Heade .hdMenuBox .girls .girlsBX .shoes .lv ul li a {
+  font-size: 15px;
+  line-height: 28px;
+  color: #589BC6;
+  display: block; }
+
+.Heade .hdMenuBox .girls .girlsBX .shoes .lv ul li a:hover {
+  color: red; }
+
+.Heade .hdMenuBox .girls .girlsBX .clothes .lv2 ul li a {
+  font-size: 15px;
+  line-height: 28px;
+  color: #589BC6;
+  display: block; }
+
+.Heade .hdMenuBox .girls .girlsBX .clothes .lv2 ul li a:hover {
+  color: red; }
+
+.Heade .hdMenuBox .girls .girlsBX .accessories .lv3 ul li a {
+  font-size: 15px;
+  line-height: 28px;
+  color: #589BC6;
+  display: block; }
+
+.Heade .hdMenuBox .girls .girlsBX .accessories .lv3 ul li a:hover {
+  color: red; }
+
+.Heade .hdMenuBox .girls .girlsBX .accessories {
+  padding-right: 200px; }
+
+.Heade .hdMenuBox .girls .girlsBX .photo a img:hover {
+  border: 1px solid white; }
+
+/* 童鞋鼠标指向导航栏显示出的内容样式 */
+.Heade .hdMenuBox .kidShoes {
+  width: 100%;
+  height: 138px;
+  background-color: #000000;
+  position: absolute;
+  display: none;
+  color: #ffffff;
+  margin-top: -20px;
+  z-index: 250;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .kidShoes .kidBX {
+  width: 100%;
+  max-width: 1300px;
+  height: 138px;
+  line-height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .kidShoes .kidBX > div {
+  width: 50%; }
+
+.Heade .hdMenuBox .kidShoes .kidBX > div a {
+  color: #ffffff; }
+
+/* CUSTOMS定制鞋鼠标指向导航栏显示出的内容样式 */
+.Heade .hdMenuBox .customsShoes {
+  width: 100%;
+  height: 200px;
+  background-color: #000000;
+  position: absolute;
+  display: none;
+  color: #ffffff;
+  margin-top: -20px;
+  z-index: 250;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .customsShoes .customsShoesBX {
+  width: 100%;
+  max-width: 1300px;
+  height: 150 px;
+  line-height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .customsShoes .customsShoesBX .Title a {
+  color: #ffffff; }
+
+.Heade .hdMenuBox .customsShoes .customsShoesBX .Title {
+  padding-top: 50px; }
+
+.Heade .hdMenuBox .customsShoes .customsShoesBX .lv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 10px; }
+
+.Heade .hdMenuBox .customsShoes .customsShoesBX .lv1 a {
+  font-size: 15px;
+  line-height: 28px;
+  color: #589BC6;
+  display: block; }
+
+.Heade .hdMenuBox .customsShoes .customsShoesBX .lv1 a:hover {
+  color: red; }
+
+/* 更多产品鼠标指向导航栏显示出的内容样式 */
+.Heade .hdMenuBox .moreProduct {
+  width: 100%;
+  height: 138px;
+  background-color: #000000;
+  position: absolute;
+  display: none;
+  color: #ffffff;
+  margin-top: -20px;
+  z-index: 250;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .moreProduct .moreProductBX {
+  width: 100%;
+  max-width: 1300px;
+  height: 135px;
+  line-height: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei"; }
+
+.Heade .hdMenuBox .moreProduct .moreProductBX div {
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+
+.Heade .hdMenuBox .moreProduct .moreProductBX div a {
+  display: block;
+  width: 25%;
+  color: #ffffff; }
+
+/* banner轮播图 */
+.banner {
+  width: 100%; }
+
+.banner .bannerPicture {
+  width: 1440px;
+  margin: 0 auto;
+  height: 600px;
+  position: relative;
+  overflow: hidden; }
+
+.banner .bannerPicture ul {
+  position: absolute;
+  width: 5760px; }
+
+.banner .bannerPicture > ul > li {
+  float: left; }
+
+.banner .box1 ol {
+  width: 40px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: -20px;
+  justify-content: space-around; }
+
+.banner .box1 ol li {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  z-index: 11111; }
+
+.banner .box1 > ol .active {
+  background-color: black; }
+
+.indexPage {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative; }
+
+.indexPage .indexPageBx {
+  max-width: 1440px;
+  width: 100%;
+  height: 602px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 72px; }
+
+.indexPage .indexPageBx ul li {
+  float: left;
+  padding-right: 30px;
+  box-sizing: border-box; }
+
+.indexPage .indexPageBx ul li .img {
+  text-align: center;
+  padding-right: 12px; }
+
+.indexPage .indexPageBx ul li .img a {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.indexPage .indexPageBx ul li .img a img {
+  width: 434px;
+  transition: all 0.6s;
+  -webkit-transform: all 0.6s;
+  -moz-transform: all 0.6s;
+  -ms-transform: all 0.6s;
+  -o-transform: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s; }
+
+.indexPage .indexPageBx ul li .img a img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2); }
+
+.indexPage .indexPageBx ul li .info .tit {
+  padding: 15px;
+  margin-top: 8px; }
+
+.indexPage .indexPageBx ul li .info .tit a {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 20px;
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: bold; }
+
+.indexPage .indexPageBx ul li .info {
+  padding: 0 12px;
+  text-align: center; }
+
+.indexPage .indexPageBx ul li .info .briefing {
+  padding: 0 20px;
+  color: #333;
+  font-size: 16px;
+  height: 46px;
+  line-height: 24px;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: box;
+  -webkit-line-clamp: 2; }
+
+.indexPage .indexPageBx ul li .info .btn {
+  display: block;
+  width: 180px;
+  height: 48px;
+  line-height: 48px;
+  background: #2b2b2b;
+  color: #fff;
+  font-size: 16px;
+  margin: 15px auto 0;
+  text-align: center; }
+
+.indexPage .pageFoot {
+  margin-top: 72px;
+  position: relative;
+  height: 280px; }
+
+.indexPage .pageFoot ul {
+  width: 1470px;
+  max-width: calc(100% + 30px); }
+
+.indexPage .pageFoot ul li {
+  float: left;
+  width: 33.333%;
+  padding-right: 30px;
+  box-sizing: border-box; }
+
+.indexPage .pageFoot ul li a {
+  display: block;
+  overflow: hidden;
+  position: relative; }
+
+.indexPage .pageFoot ul li a img {
+  max-width: 100%;
+  height: auto; }
+
+.indexPage .pageFoot ul li a .text {
+  top: 115px;
+  font-size: 38px;
+  letter-spacing: 2px; }
+
+.indexPage .pageFoot ul li a .p {
+  top: 157px;
+  font-size: 20px;
+  font-weight: bold; }
+
+.indexPage .pageFoot ul li a span {
+  position: absolute;
+  left: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+  display: block;
+  width: 100%; }
+
+.activity {
+  margin-top: 22px;
+  background: #f1f2ed;
+  overflow: hidden; }
+
+.activity .ad-group {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.activity .ad-group .title {
+  width: 100%;
+  font-size: 36px;
+  line-height: 120px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 10px;
+  margin: 0;
+  text-align: center; }
+
+.activity .ad-group ul {
+  width: 1460px;
+  max-width: calc(100% + 20px); }
+
+.activity .ad-group ul li {
+  width: 50%;
+  float: left;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px; }
+
+.activity .ad-group ul li a {
+  display: block;
+  border: 1px solid transparent;
+  box-sizing: border-box; }
+
+.activity .ad-group ul li a img {
+  display: block;
+  max-width: 100%; }
+
+.activity .ad-group ul li a .text {
+  display: block;
+  text-align: center;
+  font: bold 18px/30px "Franklin-Demi","冬青黑体","microsoft yahei";
+  padding: 15px 0 10px;
+  color: #000; }
+
+.activity .ad-group ul li a .P {
+  display: block;
+  height: 70px;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.6; }
+
+.maxFoot {
+  width: 100%;
+  position: relative;
+  background-color: #1c1c1c;
+  margin-top: 60px;
+  z-index: 9;
+  margin-top: 0; }
+
+.maxFoot .footer {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px 0; }
+
+.maxFoot .footer .f1 {
+  float: left; }
+
+.maxFoot .footer .footerL {
+  width: 33.333%;
+  min-height: 265px;
+  border-right: 1px solid #919191; }
+
+.footer .footerL .title span {
+  color: #fff;
+  line-height: 26px; }
+
+.footer .footerL .article {
+  overflow: hidden;
+  margin: 25px 0 15px; }
+
+.footer .footerL .article .dll {
+  float: left;
+  width: 170px; }
+
+.footer .footerL .article .maxTitle {
+  color: #fff;
+  font-weight: bold; }
+
+.footer .footerL .article dd a {
+  display: block;
+  font: 15px/26px "Franklin-Book","冬青黑体","microsoft yahei";
+  color: #589BC6;
+  text-transform: uppercase; }
+
+.footer .footerL .article dd a:hover {
+  color: red; }
+
+.maxFoot .footer .footerC {
+  margin-left: 40px; }
+
+.maxFoot .footer .footerC dl dt a {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  cursor: default;
+  line-height: 26px; }
+
+.maxFoot .footer .footerC dl dd {
+  margin-top: 25px; }
+
+.maxFoot .footer .footerC dl dd a {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  cursor: default;
+  line-height: 26px; }
+
+.maxFoot .footer .footerC dl dd a.item-2 {
+  color: #589BC6;
+  font-weight: normal;
+  margin: 0px 0 25px 0;
+  cursor: inherit;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+.maxFoot .footer .footerC dl dd a.item-4 {
+  color: #919191;
+  font-weight: normal;
+  margin-top: 0px; }
+
+.maxFoot .footer .footerR {
+  width: 330px;
+  height: 265px;
+  border-left: 1px solid #919191;
+  float: right; }
+
+.maxFoot .footer .footerR .App .app {
+  margin-left: 40px; }
+
+.maxFoot .footer .footerR .App .app h3 {
+  margin: 0 0 30px 0;
+  display: block;
+  width: 220px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  cursor: default;
+  line-height: 26px; }
+
+.maxFoot .footer .footerR .App .app li {
+  float: left;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px; }
+
+.maxFoot .footer .footerR .App .app li a {
+  width: 36px;
+  height: 36px;
+  display: block;
+  background: #64686b;
+  line-height: 36px;
+  -webkit-transition: background 0.2ms linear;
+  -moz-transition: background 0.2s linear;
+  -o-transition: background 0.2s linear;
+  -ms-transition: background 0.2s linear;
+  transition: background 0.2s linear; }
+
+.maxFoot .footer .footerR .App .app li a .iconfont {
+  font-size: 36px;
+  color: #ffffff; }
+
+.maxFoot .footer .footerR .App .app li .a1:hover {
+  background-color: yellowgreen; }
+
+.maxFoot .footer .footerR .App .app li .a2:hover {
+  background-color: yellowgreen; }
+
+.maxFoot .footer .footerR .App .app li .a3:hover {
+  background-color: red; }
+
+.maxFoot .footer .footerR .App .app li .a4:hover {
+  background-color: skyblue; }
+
+.maxFoot .footer .footerR .App .app li .a5:hover {
+  background-color: purple; }
+
+.maxFoot .F-bottom {
+  width: 1440px;
+  min-height: 91px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 40px; }
+
+.maxFoot .F-bottom .b-logo {
+  float: left;
+  width: 222px;
+  height: 91px;
+  background: url(../images/logo2.png) no-repeat;
+  background-size: 100% auto; }
+
+.maxFoot .F-bottom .b-l {
+  float: left;
+  margin-left: 22px; }
+
+.maxFoot .F-bottom .b-l .b-Country {
+  position: relative;
+  margin-top: 10px; }
+
+.maxFoot .F-bottom .b-l .b-Country .title {
+  width: 88px;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 10px;
+  cursor: pointer;
+  background: #64686b url(../images/jt.png) no-repeat 78px center;
+  background-size: 12px auto; }
+
+.maxFoot .F-bottom .b-l .b-Country span {
+  vertical-align: middle;
+  color: #fff; }
+
+.maxFoot .F-bottom .b-l .b-Country .country-list {
+  display: none;
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  width: 245px;
+  height: 410px;
+  overflow-y: scroll;
+  z-index: 1010;
+  background-color: #fff;
+  border: solid 1px #ccc; }
+
+.maxFoot .F-bottom .b-l .b-Country .country-list li {
+  padding: 0 10px;
+  height: 45px;
+  line-height: 41px; }
+
+.maxFoot .F-bottom .b-l .b-Country .country-list li span {
+  color: #000; }
+
+.maxFoot .F-bottom .b-l .b-Country .country-list li.first {
+  background: #eee; }
+
+.Follow {
+  position: fixed;
+  z-index: 20000;
+  bottom: 181px;
+  right: 0;
+  display: flex;
+  flex-direction: column; }
+
+.Follow a {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 30px; }
+
+.Follow a .iconfont {
+  font-size: 25px;
+  color: #fff; }
+
+.Follow a span {
+  font-size: 15px;
+  color: #fff; }
+
+.Follow .MoneyOff {
+  background-color: red;
+  color: #fff; }
+
+.Follow .service {
+  background-color: red;
+  margin-top: 5px; }
+
+.Follow .problem {
+  background-color: black;
+  margin-top: 5px; }
+
+.Follow .Top {
+  background-color: black;
+  margin-top: 5px;
+  display: none; }

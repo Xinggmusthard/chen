@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src="./js/jquery-1.10.1.min.js"></script>
+    <script src="./js/index.js"></script>
+</head>
+<body>
+     <!-- 头部-->
+    <header class="Heade">
+        <div class="header">
+            <div class="Top">   
+                <div class="hdLinks">
+                    <a href="">
+                        <i class="iconfont">&#xe615;</i>
+                        搜索店铺
+                    </a>
+                </div>
+                <div class="hdLogin">
+                    <a href="http://127.0.0.1:5500/gulpdemo/dist/login.html">
+                        <i class="iconfont">&#xe60a;</i>
+                        登录
+                    </a>
+                    /
+                    <a href="http://127.0.0.1:5500/gulpdemo/dist/register.html">
+                        注册
+                    </a>
+                </div>
+                <div class="hdCart">
+                    <a href="">
+                        <i class="iconfont">&#xe60b;</i>
+                        我的购物车
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hdMenuBox clear">
+            <div class="hdMenu clear">
+                <div class="Logo fl" onclick="">
+                </div>
+                <div class="search">
+                    <input type="text" value placeholder="搜索VANS">
+                    <button type="submit" class="btn"><i class="iconfont">&#xe614;</i></button>
+                </div>
+             <!-- 导航栏！！！ -->
+                <div class="navigation">
+                    <ul>
+                        <li id="aboutVans">
+                            <a href="http://127.0.0.1:5500/gulpdemo/dist/details.html">关于VANS &nbsp;<i class="iconfont">&#xe50f;</i>&nbsp;/</a>
+                        </li>
+                        <li id="hotdoor">
+                            <a href="http://127.0.0.1:5500/gulpdemo/dist/details.html">热门 &nbsp;<i class="iconfont">&#xe50f;</i>&nbsp;/</a>
+                        </li>
+                        <li id="Boys">
+                            <a href="http://127.0.0.1:5500/gulpdemo/dist/details.html">男子 &nbsp;<i class="iconfont">&#xe50f;</i>&nbsp;/</a>
+                        </li>
+                        <li id="Girls">
+                            <a href="http://127.0.0.1:5500/gulpdemo/dist/details.html">女子 &nbsp;<i class="iconfont">&#xe50f;</i>&nbsp;/</a>
+                        </li>
+                        <li id="KidShoes"> 
+                            <a href="http://127.0.0.1:5500/gulpdemo/dist/details.html">童鞋 &nbsp;<i class="iconfont">&#xe50f;</i>&nbsp;/</a>
+                        </li>
+                        <li id="SkateBoard">
+                            <a href="http://127.0.0.1:5500/gulpdemo/dist/details.html">滑板 &nbsp;<i class="iconfont">&#xe50f;</i>&nbsp;/</a>
+                        </li>
+                        <li id="Customs">
+                            <a href="http://127.0.0.1:5500/gulpdemo/dist/details.html">CUSTOMS定制鞋 &nbsp;<i class="iconfont">&#xe50f;</i>&nbsp;/</a>
+                        </li>
+                        <li id="More">
+                            <a href="http://127.0.0.1:5500/gulpdemo/dist/details.html">更多产品 &nbsp;<i class="iconfont">&#xe50f;</i>&nbsp;</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="blackline">
+               <a href="">定制鞋发货&部分地区发货公告</a>
+            </div>
+            <!-- 导航栏关于VANS的html样式 -->
+            <div class="hideMenuAbout">
+              <div class="hideMenuAboutBX">
+                    <div><a href=""> THIS IS OFF THE WALL</a> 
+                        <ul>
+                            <li><a href="">中国滑手故事</a></li>
+                            <li><a href="">BOHAN PHOENIX</a></li>
+                        </ul> 
+                    </div>
+                    <div><a href=""> 运动员</a> </div>
+                    <div><a href=""> VANS音乐人征集大赛</a> </div>
+                    <div><a href=""> 新闻</a> </div>
+              </div>  
+            </div>
+            <!-- 导航栏热门的html样式 -->
+            <div class="hideHot">
+                <div class="hotBX">
+                    <div><a href="">热门产品</a></div>
+                    <div><a href="">热门活动</a></div>
+                </div>
+            </div>
+           <!-- 导航栏男子的html样式 -->
+            <div class="boys">
+                <div class="boysBX">
+                    <div class="shoes">
+                        <div class="Title"><a href="">鞋款</a></div>
+                        <div class="lv">
+                            <ul>
+                                <li><a href="">OLD SKOOL</a></li>
+                                <li><a href="">SLIP-ON</a></li>
+                                <li><a href="">ERA</a></li>
+                                <li><a href="">SK8-HI</a></li>
+                                <li><a href="">AUTHENTIC</a></li>
+                                <li><a href="">经典系列</a></li>
+                                <li><a href="">职业滑板系列</a></li>
+                                <li><a href="">冲浪系列</a></li>
+                                <li><a href="">舒舒服服系列</a></li>
+                                <li><a href="">VAULT系列</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clothes">
+                        <div class="Title"><a href="">服装</a></div>
+                        <div class="lv2">
+                            <ul>
+                                <li><a href="">T恤</a></li>
+                                <li><a href="">短裤/沙滩裤</a></li>
+                                <li><a href="">卫衣</a></li>
+                                <li><a href="">长裤</a></li>
+                                <li><a href="">夹克</a></li>
+                                <li><a href="">羽绒服/棉服</a></li>
+                                <li><a href="">夹克指南 </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accessories">
+                        <div class="Title"><a href="">配件</a></div>
+                        <div class="lv3">
+                            <ul>
+                                <li><a href="">背包</a></li>
+                                <li><a href="">腰带</a></li>
+                                <li><a href="">钱包</a></li>
+                                <li><a href="">袜子</a></li>
+                                <li><a href="">帽子</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <a href=""><img src="https://img2.vans.com.cn/public/images/b4/bf/50/d4bfd67761228565e21113ed58ce0bca26618d60.jpg?1600143086#w" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 导航栏女子的html样式 -->
+            <div class="girls">
+                <div class="girlsBX">
+                    <div class="shoes">
+                        <div class="Title">鞋款</div>
+                        <div class="lv">
+                            <ul>
+                                <li><a href="">OLD SKOOL</a></li>
+                                <li><a href="">SLIP-ON</a></li>
+                                <li><a href="">ERA</a></li>
+                                <li><a href="">SK8-HI</a></li>
+                                <li><a href="">AUTHENTIC</a></li>
+                                <li><a href="">经典系列</a></li>
+                                <li><a href="">职业滑板系列</a></li>
+                                <li><a href="">冲浪系列</a></li>
+                                <li><a href="">舒舒服服系列</a></li>
+                                <li><a href="">VAULT系列</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clothes">
+                        <div class="Title">服装</div>
+                        <div class="lv2">
+                            <ul>
+                                <li><a href="">T恤</a></li>
+                                <li><a href="">短裤/沙滩裤</a></li>
+                                <li><a href="">卫衣</a></li>
+                                <li><a href="">长裤</a></li>
+                                <li><a href="">夹克</a></li>
+                                <li><a href="">羽绒服/棉服</a></li>
+                                <li><a href="">夹克指南 </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accessories">
+                        <div class="Title">配件</div>
+                        <div class="lv3">
+                            <ul>
+                                <li><a href="">背包</a></li>
+                                <li><a href="">腰带</a></li>
+                                <li><a href="">钱包</a></li>
+                                <li><a href="">袜子</a></li>
+                                <li><a href="">帽子</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <a href=""><img src="https://img1.vans.com.cn/public/images/9e/c4/55/c419d40eda37db9eb57dafb3da87f582c20e5ed3.jpg?1600143118#w" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 导航栏童鞋的html样式 -->
+            <div class="kidShoes">
+                <div class="kidBX">
+                    <div class="div1"><a href="">小童（0-3岁)</a></div>
+                    <div class="div2"><a href="">中大童（4岁以上)</a> </div>
+                </div>
+            </div>
+            <!-- 导航栏CUSTOMS定制鞋的html样式 -->
+            <div class="customsShoes">
+                <div class="customsShoesBX">
+                    <div class="Title"><a href="">CUSTOMS 专辑</a></div>
+                    <div class="lv1">
+                        <a href="">CUSTOMADE BY BOHAN</a>
+                        <a href="">豹纹图案定制系列</a>
+                        <a href="">《辛普森一家》定制系列</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 导航栏更多产品的html样式 -->
+            <div class="moreProduct">
+                <div class="moreProductBX">
+                    <div>
+                        <a href="">CLASSICS  经典款</a>
+                        <a href="">PRO SKATE 职业滑板系列</a>
+                        <a href="">VAULT BY VANS</a>
+                        <a href="">安纳海姆</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <!-- 内容 -->
+    <div class="main">
+        <div class="signin-page-wrap clearfix">
+            <div id="page_signin" class="signupin-content signin">
+                <div class="sign-title">
+                    <h2 class="login_tap active">用户名登录</h2>
+                    <h2 class="login_tap">手机快捷登录</h2>
+                </div>
+                <form action="/passport-post_login.html">
+                    <ul>
+                        <li class="form-item">
+                            <label for="" class="form-label">登录帐号：</label>
+                            <span class="form-act">
+                                <input type="text" name="uname" placeholder="手机号/用户名" class="x-input action-account-check">
+                            </span>
+                        </li>
+                        <li class="form-item account-login">
+                            <label for="" class="form-label">密码：</label>
+                            <span class="form-act">
+                                <input class="x-input" type="password" name="password" placeholder="登录密码">
+                            </span>
+                        </li>
+                        <li class="form-item oh">
+                            <label for="" class="form-label"></label>
+                            <a href="/passport-lost.html" class="fr">忘记密码？</a>
+                        </li>
+                        <li class="form-item-normal">
+                            <label for="" class="form-label"></label>
+                            <span class="form-act fl">
+                                <button type="submit" class="btn btn-major btn-big">
+                                    <span>
+                                        <span>立即登录</span>
+                                    </span>
+                                </button>
+                            </span>
+                            <a href="/passport-signup.html?redirecturl=" class="btn-passport fr">
+                                <span>注册</span>
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+                <div id="trust_signin" class="trust-signin">
+                    <span>使用其他方法登录：</span>
+                    <a href="" class="bg-1"><i class="iconfont">&#xe601;</i></a>
+                    <a href="" class="bg-2"><i class="iconfont">&#xe625;</i></a>
+                    <a href="" class="bg-3"><i class="iconfont">&#xe601;</i></a>
+                    <a href="" class="bg-4"><i class="iconfont">&#xe625;</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- 页面底部黑色那一块 -->
+    <div class="maxFoot">
+        <div class="footer">
+            <div class="footerL f1">
+                <div class="title">
+                    <div class="AdvBanner">
+                        <span style="font-weight: bold;font-size:18px;">获取帮助</span>
+                    </div>
+                </div>
+                <div class="article">
+                    <dl class="dll">
+                        <dt class="maxTitle">购物</dt>
+                        <dd>
+                            <a href="">男子</a>
+                            <a href="">女子</a>
+                            <a href="">CUSTOMS</a>
+                            <a href="">Vault by Vans</a>
+                            <a href="">职业鞋款</a>
+                            <a href="">查找店铺</a>
+                        </dd>
+                    </dl>
+                    <dl class="dlr">
+                        <dt class="maxTitle">公司</dt>
+                        <dd>
+                            <a href="">客户服务</a>
+                            <a href="">使用条款</a>
+                            <a href="">隐私政策</a>
+                            <a href="">可持续发展</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="footerC f1">
+                <dl class="connect">
+                    <dt class="maxTitle">
+                        <a href="">联系我们</a>
+                    </dt>
+                    <dd>
+                        <a href="javascript:void(0);" onclick="js_method('javascript:;','电子邮件')" class="item-1" one-link-mark="yes">电子邮件</a>
+                        <a href="javascript:void(0);" class="item-2">contactus@vans.com.cn</a>
+                        <a href="javascript:void(0);" onclick="js_method('javascript:;','地址')" class="item-3" one-link-mark="yes">地址</a>
+                        <a href="javascript:void(0);" onclick="js_method('javascript:;','中国上海市南京西路688号8楼')" class="item-4" one-link-mark="yes">中国上海市南京西路688号8楼</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="footerR f1">
+                <div class="App">
+                    <div class="app">
+                        <h3>在这些地方找到我们</h3>
+                        <li>
+                            <a href="" class="a1"><i class="iconfont">&#xe601;</i></a>
+                        </li>
+                        <li>
+                            <a href="" class="a2"><i class="iconfont">&#xe7d8;</i></a>
+                        </li>
+                        <li>
+                            <a href="" class="a3"><i class="iconfont">&#xe625;</i></a>
+                        </li>
+                        <li>
+                            <a href="" class="a4"><i class="iconfont">&#xe692;</i></a>
+                        </li>
+                        <li>
+                            <a href="" class="a5"><i class="iconfont">&#xe6bf;</i></a>
+                        </li>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="F-bottom">
+            <div class="b-logo"></div>
+            <div class="b-l">
+                <div class="b-text">
+                    <p>
+                        <font size="3">
+                            <a href="http://www.beian.miit.gov.cn" target="_blank" one-link-mark="yes">
+                                <font color="#919191">苏ICP备13010219号</font>
+                            </a>
+                            &nbsp;
+                            <a one-link-mark="yes">
+                                <font color="#589BC6">工信部网站</font>
+                            </a>
+                    </p>
+                    <p><font size="3" color="#589BC6">威富服饰（中国）有限公司</font></p>
+                </div>
+                <div class="b-Country">
+                   <div class="country">
+                       <div class="title">
+                           <span>中国</span>
+                       </div>
+                       <div class="country-list">
+                           <ul class="clearfix">
+                               <li>
+                                   <a href="https://vans.com.cn/">
+                                   <span>香港特别行政区（繁体中文）</span>
+                                    </a>
+                                </li>
+                               <li>
+                                   <a href="https://vans.com.cn/">
+                                   <span>香港特别行政区（英文）</span>
+                                    </a>
+                                </li>
+                               <li>
+                                   <a href="https://vans.com.cn/">
+                                   <span>阿根廷</span>
+                                    </a>
+                                </li>
+                               <li>
+                                   <a href="https://vans.com.cn/">
+                                   <span>爱尔兰</span>
+                                    </a>
+                                </li>
+                               <li>
+                                   <a href="https://vans.com.cn/">
+                                   <span>奥地利</span>
+                                    </a>
+                                </li>
+                               <li>
+                                   <a href="https://vans.com.cn/">
+                                   <span>澳大利亚</span>
+                                    </a>
+                                </li>
+                               <li>
+                                   <a href="https://vans.com.cn/">
+                                   <span>巴西</span>
+                                    </a>
+                                </li>
+                               <li>
+                                   <a href="https://vans.com.cn/">
+                                   <span>波兰</span>
+                                    </a>
+                                </li>
+                               <li>
+                                   <a href="https://vans.com.cn/">
+                                   <span>德国</span>
+                                    </a>
+                                </li>
+                               <li>
+                                   <a href="https://vans.com.cn/">
+                                   <span>俄罗斯</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://vans.com.cn/">
+                                    <span>法国</span>
+                                     </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://vans.com.cn/">
+                                    <span>俄罗斯</span>
+                                     </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://vans.com.cn/">
+                                    <span>韩国</span>
+                                     </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://vans.com.cn/">
+                                    <span>荷兰</span>
+                                     </a>
+                                 </li>
+                                 <li>
+                                    <a href="https://vans.com.cn/">
+                                    <span>加拿大（法语）</span>
+                                     </a>
+                                 </li>
+                           </ul>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
